@@ -16,6 +16,7 @@ public class CorrectLoginTest {
     @BeforeTest
     public void startWebDriver() {
         driver.get(VariablesGlobalesConstantes.HOME_PAGE);
+        driver.manage().window().maximize();
     }
 
     @Test

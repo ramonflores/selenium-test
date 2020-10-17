@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- Thread count es para ejecuciones en paralelo -->
+<suite name="RegressionAutomatedQA" parallel="tests"
+    thread-count="3">
+
+    <parameter name="" value="" />
+
+    <test name="LoginCorrectoTest">
+        <classes>
+            <class
+                name="com.cool.testers.selenium.navigation.pages.CorrectLoginTest" />
+        </classes>
+    </test>
+
+    <test name="LoginInorrectoTest">
+        <classes>
+            <class
+                name="com.cool.testers.selenium.navigation.pages.IncorrectLoginTest" />
+        </classes>
+    </test>
+
+    <test name="LogoutTest">
+        <classes>
+            <class
+                name="com.cool.testers.selenium.navigation.pages.LogoutTest" />
+        </classes>
+    </test>
+
+</suite>

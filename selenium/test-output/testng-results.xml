@@ -2,24 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7970" started-at="2020-10-10T16:27:00Z" finished-at="2020-10-10T16:27:08Z">
+  <suite name="RegressionAutomatedQA" duration-ms="5547" started-at="2020-10-17T14:17:15Z" finished-at="2020-10-17T14:17:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7970" started-at="2020-10-10T16:27:00Z" finished-at="2020-10-10T16:27:08Z">
-      <class name="com.cool.testers.selenium.navigation.pages.LogoutTest">
-        <test-method status="PASS" signature="startWebDriver()[pri:0, instance:com.cool.testers.selenium.navigation.pages.LogoutTest@5c669da8]" name="startWebDriver" is-config="true" duration-ms="3957" started-at="2020-10-10T11:27:00Z" finished-at="2020-10-10T11:27:04Z">
+    <test name="LoginCorrectoTest" duration-ms="5547" started-at="2020-10-17T14:17:15Z" finished-at="2020-10-17T14:17:21Z">
+      <class name="com.cool.testers.selenium.navigation.pages.LoginParameterTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.cool.testers.selenium.navigation.pages.LoginParameterTest@19b843ba]" name="beforeTest" is-config="true" duration-ms="1750" started-at="2020-10-17T09:17:15Z" finished-at="2020-10-17T09:17:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startWebDriver -->
-        <test-method status="PASS" signature="logoutTest()[pri:0, instance:com.cool.testers.selenium.navigation.pages.LogoutTest@5c669da8]" name="logoutTest" duration-ms="3364" started-at="2020-10-10T11:27:04Z" finished-at="2020-10-10T11:27:08Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginParameterTest(java.lang.String, java.lang.String)[pri:0, instance:com.cool.testers.selenium.navigation.pages.LoginParameterTest@19b843ba]" name="loginParameterTest" duration-ms="1642" started-at="2020-10-17T09:17:17Z" finished-at="2020-10-17T09:17:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- logoutTest -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.cool.testers.selenium.navigation.pages.LogoutTest@5c669da8]" name="closeDriver" is-config="true" duration-ms="631" started-at="2020-10-10T11:27:08Z" finished-at="2020-10-10T11:27:08Z">
+        </test-method> <!-- loginParameterTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.cool.testers.selenium.navigation.pages.LoginParameterTest@19b843ba]" name="afterTest" is-config="true" duration-ms="2141" started-at="2020-10-17T09:17:19Z" finished-at="2020-10-17T09:17:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- com.cool.testers.selenium.navigation.pages.LogoutTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.cool.testers.selenium.navigation.pages.LoginParameterTest -->
+    </test> <!-- LoginCorrectoTest -->
+  </suite> <!-- RegressionAutomatedQA -->
 </testng-results>

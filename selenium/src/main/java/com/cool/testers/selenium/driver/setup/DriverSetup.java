@@ -24,6 +24,7 @@ public class DriverSetup {
         WebDriver driver = new ChromeDriver();
 
         driver.manage().timeouts().implicitlyWait(1, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
 
         return driver;
     }
